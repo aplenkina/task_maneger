@@ -1,2 +1,13 @@
 # task_maneger
 The repository for test
+
+## Local environment
+
+Copy the example to `.env` before starting the app.
+
+```sh
+cp .env.example .env
+php -r 'echo bin2hex(random_bytes(32)), PHP_EOL;'
+```
+
+Set `APP_SECRET` in your local `.env` to the generated value.
